@@ -1,0 +1,30 @@
+var word
+word='bird'
+console.log(word)
+
+word='dog'
+console.log(word)
+
+var a = 5, b = 2, c = 3, d = 'hello', e = 'goodbye'
+console.log(a,b,c,d,e)
+
+var myNote = "Get milk"
+console.log(myNote)
+myNote = "Get cookies"
+console.log(myNote)
+
+function sayHello() {
+  console.log('Hello!')
+}
+
+function speaker() {
+  var sentence = 'Bird is the word.';
+ 
+  console.log(sentence);
+}
+
+function log() {
+  console.log(greeting);
+  var greeting = 'Hello!';
+}
+log();
